@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="format-detection" content="telephone=no">
     <title>Ricardo & Manuela</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
@@ -142,7 +143,7 @@
 
         <p class="donation">Su presencia en nuestra boda es el mejor regalo. Si desean contribuir de otra manera, una ayuda para la construcción de nuestro hogar será recibida con mucho amor y gratitud. 
 
-            <br><a href="https://drive.google.com/file/d/1ldLhByjL4qcUmm__rG4RY1GR63Ml61o8/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="listar">*Click para ver lista de regalos*</a>
+            <br><a href="https://drive.google.com/file/d/1ldLhByjL4qcUmm__rG4RY1GR63Ml61o8/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="listar">Click para ver lista de regalos</a>
 
             <br>
             <br> <span class="cuentas">Cuentas Bancarias:</span>
@@ -152,6 +153,17 @@
             <br><span style="font-family: 'Courier New', Courier, monospace;;" >APAP</span>: 103 326 5276  <br> Ricardo De Jesus (Ced.: 402-2265377-2). 
              </p>   
     </div>
+
+    <audio id="bg-audio" src="The Legend of Zelda_ Ocarina of Time  Title Theme  近藤浩治 [Koji Kondo].mp3" loop style="display: none;"></audio>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        document.body.addEventListener('click', function () {
+          document.getElementById('bg-audio').play();
+        }, { once: true });
+      });
+    </script>
+
 </body>
 </html>
 
